@@ -35,4 +35,4 @@ jobs:
           \"$BRANCH_NAME\", \"api_secret\": \"$API_SECRET\" }"
 
           curl -X POST -H "Content-Type: application/json" -d "$API_PAYLOAD"
-          $API_URL
+    
